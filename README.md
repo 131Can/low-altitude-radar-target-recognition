@@ -1,5 +1,5 @@
 # 低空监视雷达目标智能识别技术研究
-### Low Altitude Surveillance Radar Target Intelligent Recognition
+### 2025挑战杯揭榜挂帅CQ-08赛题落榜方案
 
 ## 📄 项目简介（Project Overview）
 本项目基于 **低空监视雷达观测数据**，针对无人机、鸟类、空飘球等典型低空目标，构建了一个 **轻量级、高实时性、可部署** 的目标识别模型方案。
@@ -66,18 +66,6 @@
 - Early Stopping（100 次）  
 - 指标：Accuracy  
 
-## 📁 目录结构（Repository Structure）
-```
-.
-├── data/
-├── preprocess/
-├── features/
-├── models/
-├── utils/
-├── experiments/
-├── README.md
-└── requirements.txt
-```
 
 ## 🚀 快速开始（Quick Start）
 
@@ -92,22 +80,16 @@ cd yourrepo
 pip install -r requirements.txt
 ```
 
-### 3. 数据预处理
+### 3. 运行train
 ```bash
-python preprocess/run_preprocess.py
+python train.py
 ```
 
-### 4. 模型训练
+### 4. 运行test
 ```bash
-python models/train_lgbm.py
-python models/train_xgb.py
-python models/train_catboost.py
+python test.py
 ```
 
-### 5. 集成推理
-```bash
-python models/ensemble_predict.py
-```
 
 ## 📜 许可证（License）
 建议使用 MIT 或 Apache-2.0。
