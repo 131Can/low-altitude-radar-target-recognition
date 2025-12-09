@@ -1,0 +1,14 @@
+name: ml_project 
+channels:
+  - defaults
+  - conda-forge 
+dependencies:
+  - python=3.11.5
+  - numpy=1.24.3
+  - pandas=2.2.3
+  - scipy=1.15.3
+  - joblib=1.4.2
+  - scikit-learn=1.6.1
+  - xgboost==3.0.1
+  - lightgbm==4.6.0
+  - catboost==1.2.8
